@@ -15,7 +15,6 @@ image-captioning-t5/
 ├── scripts/               # Training, inference, evaluation, feature extraction
 ├── utils/                 # Dataset class, BLEU, captioning helpers
 ├── outputs/               # Model checkpoints (not included in repo)
-├── notebooks/             # (Optional) end-to-end development notebook
 ├── requirements.txt       # Python dependencies
 ├── .gitignore             # Excludes weights and data
 └── README.md              # This file
