@@ -21,10 +21,7 @@ image-captioning-t5/
 └── README.md              # This file
 ```
 ## Model Pipeline
-![Resized_Flowchart](https://github.com/user-attachments/assets/dbfcf846-c370-4708-a9e2-293bd18faf2a)
-
-
-We train the model on the **Flickr8k dataset**, which contains 8,000 images, each paired with five human-written captions. The visual encoder, **EfficientNet**, is used as a fixed feature extractor with its classification head removed. A **linear projection layer** then maps the 1280-dimensional image features to the 512-dimensional hidden space expected by the T5 encoder. We fine-tune the **T5-small model** end-to-end using these projected image embeddings and corresponding text captions, training with teacher forcing. The model learns to translate high-level visual semantics into fluent natural language descriptions.
+![Resized_Flowchart](https://github.com/user-attachments/assets/dbfcf846-c370-4708-a9e2-293bd18faf2a) I trained the model on the **Flickr8k dataset**, which contains 8,000 images, each paired with five human-written captions. The visual encoder, **EfficientNet**, is used as a fixed feature extractor with its classification head removed. A **linear projection layer** then maps the 1280-dimensional image features to the 512-dimensional hidden space expected by the T5 encoder. We fine-tune the **T5-small model** end-to-end using these projected image embeddings and corresponding text captions, training with teacher forcing. The model learns to translate high-level visual semantics into fluent natural language descriptions.
 
 ---
 
