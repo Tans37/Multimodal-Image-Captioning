@@ -58,7 +58,7 @@ python scripts/infer.py
 ---
 
 ## 📊 Example Output
-```
+
 ![482098572_e83153b300](https://github.com/user-attachments/assets/95c20904-f268-4c1d-aea6-86983d0eece9)
 
 A man in a yellow jacket is riding a kayak in the water.
@@ -66,7 +66,7 @@ A man in a yellow jacket is riding a kayak in the water.
 ![1827560917_c8d3c5627f](https://github.com/user-attachments/assets/ec730a05-09d1-47d8-9fb0-6bc07b5285eb)
 
 A boy in a blue shirt is playing with a ball.
-```
+
 
 ---
 
