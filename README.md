@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ### 2. Prepare Dataset & Weights
 Due to GitHub's file size limitations, the dataset and pretrained weights are **not included in this repository**. Please download them manually:
 
-- 📁 **Flickr8k Dataset**: Download the image folder and captions file from [official source](http://cs.stanford.edu/people/karpathy/deepimagesent/)
+- 📁 **Flickr8k Dataset**: Download the image folder and captions file from [official source](https://github.com/goodwillyoga/Flickr8k_dataset?tab=readme-ov-file)
 - 💾 **Model Weights**: If you wish to use pretrained `.pth`(T5 weights) or `.pkl`(Extracted Image Features using EfficientNet) files, store them locally in `outputs/model_checkpoints/` and `outputs/`, respectively.
 
 ### 3. Extract Image Features
