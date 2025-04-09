@@ -20,6 +20,8 @@ image-captioning-t5/
 ├── .gitignore             # Excludes weights and data
 └── README.md              # This file
 ```
+## Model Pipeline
+![ChatGPT Image Apr 8, 2025, 02_47_27 AM (1)](https://github.com/user-attachments/assets/e2e84db2-5502-4ac4-ad99-733bd3caaf6c)
 
 ---
 
