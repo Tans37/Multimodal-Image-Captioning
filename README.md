@@ -2,7 +2,7 @@
 
 This project builds a compact yet effective image captioning pipeline using:
 - 🧠 **EfficientNet** for visual feature extraction
-- ✍️ **T5-small**(#https://huggingface.co/docs/transformers/en/model_doc/t5)for natural language generation
+- ✍️ **T5-small(#https://huggingface.co/docs/transformers/en/model_doc/t5)**for natural language generation
 
 It combines computer vision and NLP into a streamlined, multimodal architecture — capable of generating human-like captions from image inputs.
 
