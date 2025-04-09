@@ -21,7 +21,7 @@ image-captioning-t5/
 └── README.md              # This file
 ```
 ## Model Pipeline
-![ChatGPT Image Apr 8, 2025, 02_47_27 AM (1)](https://github.com/user-attachments/assets/e2e84db2-5502-4ac4-ad99-733bd3caaf6c)
+![ChatGPT Image Apr 8, 2025, 11_49_19 PM](https://github.com/user-attachments/assets/1d28be79-0d5d-40bd-8463-14f7f7a654bc)
 
 We train the model on the **Flickr8k dataset**, which contains 8,000 images, each paired with five human-written captions. The visual encoder, **EfficientNet**, is used as a fixed feature extractor with its classification head removed. A **linear projection layer** then maps the 1280-dimensional image features to the 512-dimensional hidden space expected by the T5 encoder. We fine-tune the **T5-small model** end-to-end using these projected image embeddings and corresponding text captions, training with teacher forcing. The model learns to translate high-level visual semantics into fluent natural language descriptions.
 
