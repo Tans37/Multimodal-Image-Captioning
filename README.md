@@ -93,4 +93,4 @@ Original source and license details: http://cs.stanford.edu/people/karpathy/deep
 
 ---
 
-Made with ❤️ by [Tanishq Sharma](#)
+Made by: [Tanishq Sharma](#)
