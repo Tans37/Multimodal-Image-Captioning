@@ -1,4 +1,4 @@
-# Image Captioning with T5 and EfficientNet
+# Multimodal Image Captioning with T5 and EfficientNet
 
 This project builds a compact yet effective image captioning pipeline using:
 - 🧠 **EfficientNet** for visual feature extraction
