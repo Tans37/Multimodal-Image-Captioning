@@ -69,8 +69,21 @@ A man in a red jacket is riding a yellow kayak in the water.
 
 A black and white dog is carrying a stick in its mouth.
 
+---
 
 ---
+
+## 📈 Quantitative Results
+- **Final Validation Loss**: 1.19
+- **Final Test Loss**: 1.20
+- **BLEU-4 Score**: 0.2359 on the test set
+
+### 📉 Training and Validation Loss Curve
+
+![train vs val](https://github.com/user-attachments/assets/ac9d5c54-dadd-4f85-b48f-974a58552068)
+
+---
+
 
 ## 🔍 Future Plans
 - Real-time video captioning with OpenCV
