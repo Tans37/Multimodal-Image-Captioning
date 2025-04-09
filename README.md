@@ -6,6 +6,10 @@ This project builds a compact yet effective image captioning pipeline using:
 
 It combines computer vision and NLP into a streamlined, multimodal architecture — capable of generating human-like captions from image inputs.
 
+
+![flowchart modern](https://github.com/user-attachments/assets/9954f080-c2b7-4cbc-ad9e-6fbf687dad19)
+
+
 ---
 
 ## 🚀 Project Structure
