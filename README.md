@@ -23,6 +23,7 @@ image-captioning-t5/
 ## Model Pipeline
 ![ChatGPT Image Apr 8, 2025, 02_47_27 AM (1)](https://github.com/user-attachments/assets/e2e84db2-5502-4ac4-ad99-733bd3caaf6c)
 
+We train the model on the **Flickr8k** dataset, which contains 8,000 images, each annotated with five human-written captions. The image encoder (EfficientNet) is used as a fixed feature extractor(without it's final classification layer), and a linear projection layer is added to align the features with T5’s encoder input dimensions. The T5-Small model is trained end-to-end using the extracted EfiicientNet features and image caption pair utilizing teacher forcing.
 ---
 
 ## 📦 How to Run
