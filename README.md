@@ -1,6 +1,7 @@
 # Multimodal Image Captioning with T5 and EfficientNet
+> ⚡ This project implements a multimodal image captioning system using EfficientNet-B0 and T5-small, trained on the Flickr8k dataset. It demonstrates the fusion of visual and language representations for generating descriptive image captions.
 
-This project builds a compact yet effective image captioning pipeline using:
+A compact yet effective image captioning pipeline using:
 - 🧠 [**EfficientNet**](https://arxiv.org/abs/1905.11946) for visual feature extraction
 - ✍️ [**T5-small**](https://huggingface.co/docs/transformers/en/model_doc/t5) for natural language generation
 
